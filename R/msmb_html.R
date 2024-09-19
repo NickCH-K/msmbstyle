@@ -322,7 +322,7 @@ msmb_build_chapter = function(
         chapter,
         '<p style="text-align: center;">',
         bookdown:::button_link(link_prev, 'Previous'),
-        bookdown:::source_link(rmd_cur),
+        bookdown:::source_link(rmd_cur, 'view'),
         bookdown:::button_link(link_next, 'Next'),
         '</p>',
         '<p class="build-date">Page built: ', as.character(Sys.Date()), ' using ', R.version.string, '</p>',
